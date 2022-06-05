@@ -1,0 +1,30 @@
+.tablekeeper thead tr th{
+    padding-right: 75px;
+    font-size: 22px;
+    padding-left: 45px;
+    /* border: 2px solid black; */
+}
+.tablekeeper tbody tr td{
+    font-size: 18px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid black;
+    padding: 10px 10px;
+}
+.tablekeeper{
+    margin: 20px 20px;
+}
+.divkeeper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.dltbtn{
+    width: 75px;
+    background-color:cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
