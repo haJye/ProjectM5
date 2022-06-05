@@ -19,7 +19,7 @@ con.query("select * from users", (error, data) => {
 
 app.use("/", userrouter);
 
-const PORT = process.env.PORT || 4400;
+const PORT = process.env.PORT || 5000;
 app.listen(PORT, (error) => {
   if (!error) {
     console.log(`SIZ ${PORT} PORTA QOSHULDUNUZ`);
