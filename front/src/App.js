@@ -11,6 +11,8 @@ import Product from './component/product/Product';
 import Products from './component/products/Products';
 import SignUp from './component/user/register/SignUp';
 import Sqlusers from './component/users/sqlusers';
+import Footer from './component/Footer';
+import NotFound from './component/NotFound';
 
 function App() {
   return (
@@ -27,7 +29,9 @@ function App() {
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<SignUp />} />
         <Route path='/admin' element={<Sqlusers />} />
+        <Route path='*' element={<NotFound />} />
       </Routes>
+      <Footer />
     </>
   );
 }
